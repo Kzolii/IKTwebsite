@@ -1,0 +1,158 @@
+:root {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #eceff4;
+}
+#mySidenav a {
+	position: absolute;
+	left: -15%;
+	padding: 15px;
+	transition: 0.8s;
+	width: 300px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	border-radius: 0 5px 5px 0;
+	margin-top: 35px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#mySidenav a:hover {
+	left: -60px;
+}
+#mySidenav a.here {
+	left: 0;
+}
+#home {
+	text-align: center;
+	top: 20px;
+	background-color: #a3be8c;
+}
+
+#download {
+	text-align: center;
+	top: 80px;
+	background-color: #5e81ac;
+}
+
+#about {
+	text-align: center;
+	top: 140px;
+	background-color: #bf616a;
+}
+
+#contact {
+	text-align: center;
+	top: 200px;
+	background-color: #4c566a;
+}
+
+h1 {
+	text-align: center;
+	padding: 120px;
+	font-size: 400%;
+}
+header {
+	height: 40vh;
+	margin-top: 0px;
+}
+
+body {
+	background-color: #434c5e;
+	background-repeat: repeat-x;
+	background-size: 20%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+}
+h2 {
+	text-align: center;
+	font-size: 120px;
+}
+main {
+	background-color: #3b4252;
+	flex-grow: 20;
+	margin: 0;
+	padding: 1rem;
+}
+footer {
+	background-color: #2e3440;
+	color: #eceff4;
+	flex-grow: 1.5;
+	text-align: center;
+	min-height: 4.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+a {
+	color: #81a1c1;
+}
+#license {
+	font-feature-settings: 'zero', 'tnum';
+}
+tr,
+td,
+table {
+	border-style: solid;
+	border-color: black;
+	border-collapse: collapse;
+	margin: auto;
+	min-width: 70%;
+	text-align: center;
+	padding: 0.5rem;
+	font-size: 110%;
+}
+th {
+	padding: 1rem;
+	font-weight: bold;
+	font-size: 150%;
+	text-decoration: underline;
+}
+img {
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+#kep {
+	width: 40%;
+	float: right;
+	transform: translate(10px, -100px);
+	margin: 0;
+}
+p {
+	margin: 0;
+	float: left;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: blue;
+}
+.sorow:hover {
+	background-color: #5e81ac;
+}
+#downloadsection {
+	display: flex;
+}
+#downloadtext {
+	width: 75%;
+}
+#downloadbutton {
+	width: 25%;
+}
+button {
+	background-color: DodgerBlue;
+	border: none;
+	color: white;
+	padding: 12px 30px;
+	cursor: pointer;
+	font-size: 20px;
+	text-align: center;
+	width: 100%;
+	transform: translateY(450%);
+}
